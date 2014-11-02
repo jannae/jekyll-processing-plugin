@@ -6,13 +6,15 @@ Created by by Jannae, MIT License
 
 ## Setup
 
-Include this link (or host the .js file) in your project site.
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
+1. Include this link (or host the .js file) in your project site.
+	
+		<script src="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
+	
+2. Add `processing_sketch.rb` to your Jekyll `_plugins` directory.
 
 ## Usage
 
-Default: 
+Default code. Modify this to match your own sketch parameters, and include this tag within a page where you want to render a processing sketch: 
 
 	{% processing_sketch mysketches/sketch.pde --sketchid=sketch1 --width=640 --height=480 %}
 
