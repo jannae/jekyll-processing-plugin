@@ -38,5 +38,5 @@ Default code above will render this codeblock:
 
 ## TODOS:
 
-- This does not support more than one .pde file. Should it? Maybe yes?
+- This does not support more than one .pde file to a project. Should it? Maybe yes?
 - Width and height should input widthxheight (e.g., 640x480)
